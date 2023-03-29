@@ -10,10 +10,11 @@ And run Docker image with `makefile`
 
 You need to have Docker up for this to work.
 
-# Project requirements
+# Project Use
 
-1. Endpoint `GET /` list the Star wars movies.
-   * Sort them by ID in ascending order.
+1. Endpoints `GET /` 
+   * List the Star wars movies in Ascending ID order.
+   * * Use LocalHost:3000
+   * List all characters names from a movie
+   * * Use LocalHost:3000//id/characters
 
-2. Create a new Endpoint to list all character names from a movie.
-   * You pass an ID as a URL parameter. 
